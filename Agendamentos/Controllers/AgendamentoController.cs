@@ -1,8 +1,8 @@
-﻿using barbearia.Domain.Interfaces.Applications;
-using barbearia.Domain.ViewModels.Request;
+﻿using Agendamentos.Domain.Interfaces.Applications;
+using Agendamentos.Domain.ViewModels.Request;
 using Microsoft.AspNetCore.Mvc;
 
-namespace barbearia.WebApi
+namespace Agendamentos.WebApi
 {
     [ApiController]
     [Route("api/[controller]")]

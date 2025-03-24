@@ -1,4 +1,4 @@
-﻿using barbearia.Domain.Models;
+﻿using Agendamentos.Domain.Models;
 using Stratega.Domain.Models;
 
 namespace barbearia.Domain.ViewModels.Response

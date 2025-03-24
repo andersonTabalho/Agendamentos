@@ -1,7 +1,7 @@
-﻿using barbearia.Domain.Models;
-using barbearia.Domain.ViewModels.Request;
+﻿
+using Agendamentos.Domain.ViewModels.Request;
 
-namespace barbearia.Domain.Interfaces.Applications
+namespace Agendamentos.Domain.Interfaces.Applications
 {
     public interface IAgendamentoApp
     {

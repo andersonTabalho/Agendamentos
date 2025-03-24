@@ -1,12 +1,13 @@
-﻿using barbearia.Domain.Models;
+﻿
+using Agendamentos.Domain.Models;
 using Stratega.Domain.Models;
 
-namespace barbearia.Domain.ViewModels.Request
+namespace Agendamentos.Domain.ViewModels.Request
 {
     public class AgendamentoRequest : BaseEntity
     {
         public ClienteModel ClienteId { get; private set; }
-        public LojaModel BarbeiroId { get; private set; }
+        public LojaModel LojaId { get; private set; }
         public DateTime DataHora { get; private set; }
         public string Status { get; private set; }
     }

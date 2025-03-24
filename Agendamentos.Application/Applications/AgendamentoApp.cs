@@ -1,8 +1,8 @@
-﻿using barbearia.Domain.Interfaces.Adapters;
-using barbearia.Domain.Interfaces.Applications;
-using barbearia.Domain.Interfaces.Repositories;
-using barbearia.Domain.Models;
-using barbearia.Domain.ViewModels.Request;
+﻿using Agendamentos.Domain.Interfaces.Adapters;
+using Agendamentos.Domain.Interfaces.Applications;
+using Agendamentos.Domain.Interfaces.Repositories;
+using Agendamentos.Domain.Models;
+using Agendamentos.Domain.ViewModels.Request;
 
 namespace barbearia.Application.Applications
 {

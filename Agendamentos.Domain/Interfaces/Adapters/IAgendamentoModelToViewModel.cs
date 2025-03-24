@@ -1,7 +1,7 @@
-﻿using barbearia.Domain.Models;
-using barbearia.Domain.ViewModels.Request;
+﻿using Agendamentos.Domain.Models;
+using Agendamentos.Domain.ViewModels.Request;
 
-namespace barbearia.Domain.Interfaces.Adapters
+namespace Agendamentos.Domain.Interfaces.Adapters
 {
     public interface IAgendamentoModelToViewModel
     {

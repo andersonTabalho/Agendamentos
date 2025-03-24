@@ -1,7 +1,7 @@
-﻿using barbearia.Domain.Models;
+﻿using Agendamentos.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace barbearia.Data
+namespace Agendamentos.Data
 {
     public class AgendamentoContext : DbContext
     {

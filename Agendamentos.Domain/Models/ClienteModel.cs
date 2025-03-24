@@ -1,6 +1,6 @@
 ﻿using Stratega.Domain.Models;
 
-namespace barbearia.Domain.Models
+namespace Agendamentos.Domain.Models
 {
     public class ClienteModel : BaseEntity
     {

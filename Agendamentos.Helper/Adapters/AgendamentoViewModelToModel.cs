@@ -1,6 +1,6 @@
-﻿using barbearia.Domain.Interfaces.Adapters;
-using barbearia.Domain.Models;
-using barbearia.Domain.ViewModels.Request;
+﻿using Agendamentos.Domain.Interfaces.Adapters;
+using Agendamentos.Domain.Models;
+using Agendamentos.Domain.ViewModels.Request;
 
 namespace AgendamentoHelper.Adapters
 {
@@ -9,7 +9,7 @@ namespace AgendamentoHelper.Adapters
         public AgendamentoModel ViewModelToModel(AgendamentoRequest request) => new()
         {
             Id = request.Id,
-            BarbeiroId = request.BarbeiroId,
+            LojaId = request.LojaId,
             ClienteId = request.ClienteId,
             DataHora = request.DataHora,
             Status = request.Status
