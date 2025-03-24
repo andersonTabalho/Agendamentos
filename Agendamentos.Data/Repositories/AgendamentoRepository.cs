@@ -5,9 +5,9 @@ namespace barbearia.Data.Repositories
 {
     public class AgendamentoRepository : IAgendamentoRepository<AgendamentoModel>
     {
-        private readonly BarberShopContext _context;
+        private readonly AgendamentoContext _context;
 
-        public AgendamentoRepository(BarberShopContext context)
+        public AgendamentoRepository(AgendamentoContext context)
         {
             _context = context;
         }

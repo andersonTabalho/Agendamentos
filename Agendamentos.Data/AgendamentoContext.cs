@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace barbearia.Data
 {
-    public class BarberShopContext : DbContext
+    public class AgendamentoContext : DbContext
     {
-        public BarberShopContext(DbContextOptions<BarberShopContext> options) : base(options) { }
+        public AgendamentoContext(DbContextOptions<AgendamentoContext> options) : base(options) { }
 
         public DbSet<AgendamentoModel> Agendamentos { get; set; }
     }

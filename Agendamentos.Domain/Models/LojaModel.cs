@@ -2,7 +2,7 @@
 
 namespace barbearia.Domain.Models
 {
-    public class BarbeariaModel : BaseEntity
+    public class LojaModel : BaseEntity
     {
         public string Nome { get; private set; }
         public string CNPJ { get; private set; }
